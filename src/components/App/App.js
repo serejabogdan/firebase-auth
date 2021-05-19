@@ -1,30 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import FormInput from '../../shared/FormInput';
+
 function App() {
 	return (
 		<div className='App'>
 			<h1>Registration</h1>
 			<form className='App__registration-form'>
-				<label>
-					Login: <input type='text' />
-				</label>
-				<label>
-					Password: <input type='text' />
-				</label>
-				<label>
-					Confirm password: <input type='text' />
-				</label>
+				<FormInput label='Login:' />
+				<FormInput label='Password:' />
+				<FormInput label='Confirm password:' />
 				<button type='submit'>Go!</button>
 			</form>
 			<h1>Login</h1>
 			<form className='App__registration-form'>
-				<label>
-					Login: <input type='text' />
-				</label>
-				<label>
-					Password: <input type='text' />
-				</label>
+				<FormInput label='Login:' />
+				<FormInput label='Password:' />
 				<button type='submit'>Get in</button>
 			</form>
 		</div>
