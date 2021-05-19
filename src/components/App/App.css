@@ -1,0 +1,39 @@
+.App {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.App__registration-form,
+label {
+	display: flex;
+	flex-direction: column;
+}
+
+.App__registration-form {
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+label {
+	margin-bottom: 6px;
+}
+
+input {
+	padding: 6px;
+	border: 1px solid gray;
+	font-size: 14px;
+}
+
+button {
+	padding: 6px;
+	font-size: 1rem;
+	background-color: #fff;
+	border: 1px solid black;
+	margin-top: 1rem;
+	/* margin: 0 auto; */
+}
+
+button,
+input {
+	border-radius: 6px;
+}
